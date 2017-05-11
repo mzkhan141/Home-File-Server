@@ -24,54 +24,6 @@ img{margin-bottom:-5px}a{color:inherit}
 .zk-badge,.zk-tag,.zk-sign{background-color:#000;color:#fff;display:inline-block;padding-left:8px;padding-right:8px;text-align:center}
 .zk-badge{border-radius:50%}
 ul.zk-ul{list-style-type:none;padding:0;margin:0}ul.zk-ul li{padding:6px 2px 6px 16px;border-bottom:1px solid #ddd}ul.zk-ul li:last-child{border-bottom:none}
-.zk-tooltip,.zk-display-container{position:relative}.zk-tooltip .zk-text{display:none}.zk-tooltip:hover .zk-text{display:inline-block}
-.zk-navbar{list-style-type:none;margin:0;padding:0;overflow:hidden}
-.zk-navbar li{float:left}.zk-navbar li a,.zk-navitem,.zk-navbar li .zk-btn,.zk-navbar li .zk-input{display:block;padding:8px 16px}.zk-navbar li .zk-btn,.zk-navbar li .zk-input{border:none;outline:none;width:auto;}
-.zk-navbar li a:hover{color:#000;background-color:#ccc}
-.zk-navbar .zk-dropdown-hover,.zk-navbar .zk-dropdown-click{position:static}
-.zk-navbar .zk-dropdown-hover:hover,.zk-navbar .zk-dropdown-hover:first-child,.zk-navbar .zk-dropdown-click:hover{background-color:#ccc;color:#000}
-.zk-navbar a,.zk-topnav a,.zk-sidenav a,.zk-dropdown-content a,.zk-accordion-content a,.zk-dropnav a{text-decoration:none!important}
-.zk-navbar .zk-opennav.zk-right{float:right!important}.zk-topnav{padding:8px 8px}
-.zk-topnav a{padding:0 8px;border-bottom:3px solid transparent;-webkit-transition:border-bottom .25s;transition:border-bottom .25s}
-.zk-topnav a:hover{border-bottom:3px solid #fff}.zk-topnav .zk-dropdown-hover a{border-bottom:0}
-.zk-opennav,.zk-closenav{color:inherit}.zk-opennav:hover,.zk-closenav:hover{cursor:pointer;opacity:0.8}
-.zk-btn,.zk-btn-floating,.zk-dropnav a,.zk-btn-floating-large,.zk-btn-block, .zk-navbar a,.zk-sidenav a,.zk-pagination li a,.zk-hoverable tbody tr,.zk-hoverable li,
-.zk-accordion-content a,.zk-dropdown-content a,.zk-dropdown-click:hover,.zk-dropdown-hover:hover,.zk-opennav,.zk-closenav,.zk-closebtn,*[class*="zk-hover-"]
-{-webkit-transition:background-color .25s,color .15s,box-shadow .25s,opacity 0.25s,filter 0.25s,border 0.15s;transition:background-color .25s,color .15s,box-shadow .15s,opacity .25s,filter .25s,border .15s}
-.zk-ripple:active{opacity:0.5}.zk-ripple{-webkit-transition:opacity 0s;transition:opacity 0s}
-.zk-sidenav{height:100%;width:200px;background-color:#fff;position:fixed!important;z-index:1;overflow:auto}
-.zk-sidenav a{padding:4px 2px 4px 16px}.zk-sidenav a:hover{background-color:#ccc}.zk-sidenav a,.zk-dropnav a{display:block}
-.zk-sidenav .zk-dropdown-hover:hover,.zk-sidenav .zk-dropdown-hover:first-child,.zk-sidenav .zk-dropdown-click:hover,.zk-dropnav a:hover{background-color:#ccc;color:#000}
-.zk-sidenav .zk-dropdown-hover,.zk-sidenav .zk-dropdown-click {width:100%}.zk-sidenav .zk-dropdown-hover .zk-dropdown-content,.zk-sidenav .zk-dropdown-click .zk-dropdown-content{min-width:100%}
-.zk-main,#main{transition:margin-left .4s}
-.zk-modal{z-index:3;display:none;padding-top:100px;position:fixed;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgb(0,0,0);background-color:rgba(0,0,0,0.4)}
-.zk-modal-content{margin:auto;background-color:#fff;position:relative;padding:0;outline:0;width:600px}.zk-closebtn{text-decoration:none;float:right;font-size:24px;font-weight:bold;color:inherit}
-.zk-closebtn:hover,.zk-closebtn:focus{color:#000;text-decoration:none;cursor:pointer}
-.zk-pagination{display:inline-block;padding:0;margin:0}.zk-pagination li{display:inline}
-.zk-pagination li a{text-decoration:none;color:#000;float:left;padding:8px 16px}
-.zk-pagination li a:hover{background-color:#ccc}
-.zk-input-group,.zk-group{margin-top:24px;margin-bottom:24px}
-.zk-input{padding:8px;display:block;border:none;border-bottom:1px solid #808080;width:auto;}
-.zk-label{color:#009688}.zk-input:not(:valid)~.zk-validate{color:#f44336}
-.zk-select{padding:9px 0;width:100%;color:#000;border:1px solid transparent;border-bottom:1px solid #009688}
-.zk-select select:focus{color:#000;border:1px solid #009688}.zk-select option[disabled]{color:#009688}
-.zk-dropdown-click,.zk-dropdown-hover{position:relative;display:inline-block;cursor:pointer}
-.zk-dropdown-hover:hover .zk-dropdown-content{display:block;z-index:1}
-.zk-dropdown-content{cursor:auto;color:#000;background-color:#fff;display:none;position:absolute;min-width:160px;margin:0;padding:0}
-.zk-dropdown-content a{padding:6px 16px;display:block}
-.zk-dropdown-content a:hover{background-color:#ccc}
-.zk-accordion {width:100%;cursor:pointer}
-.zk-accordion-content{cursor:auto;display:none;position:relative;width:100%;margin:0;padding:0}
-.zk-accordion-content a{padding:6px 16px;display:block}.zk-accordion-content a:hover{background-color:#ccc}
-.zk-progress-container{width:100%;height:1.5em;position:relative;background-color:#f1f1f1}
-.zk-progressbar{background-color:#757575;height:100%;position:absolute;line-height:inherit}
-input[type=checkbox].zk-check,input[type=radio].zk-radio{width:24px;height:24px;position:relative;top:6px}
-input[type=checkbox].zk-check:checked+.zk-validate,input[type=radio].zk-radio:checked+.zk-validate{color:#009688} 
-input[type=checkbox].zk-check:disabled+.zk-validate,input[type=radio].zk-radio:disabled+.zk-validate{color:#aaa}
-.zk-responsive{overflow-x:auto}
-.zk-container:after,.zk-panel:after,.zk-row:after,.zk-row-padding:after,.zk-topnav:after,.zk-clear:after,.zk-btn-group:before,.zk-btn-group:after,.zk-btn-bar:before,.zk-btn-bar:after
-{content:"";display:table;clear:both}
-.zk-col,.zk-half,.zk-third,.zk-twothird,.zk-threequarter,.zk-quarter{float:left;width:100%}
 .zk-col.s1{width:8.33333%}
 .zk-col.s2{width:16.66666%}
 .zk-col.s3{width:24.99999%}
@@ -129,7 +81,7 @@ input[type=checkbox].zk-check:disabled+.zk-validate,input[type=radio].zk-radio:d
 .zk-padding-0{padding:0!important}
 .zk-padding-top{padding-top:8px!important}.zk-padding-bottom{padding-bottom:8px!important}
 .zk-padding-left{padding-left:16px!important}.zk-padding-right{padding-right:16px!important}
-.zk-example,.zk-code{margin:20px 0}.zk-card{border:1px solid #ccc}
+.zk-card{border:1px solid #ccc}
 .zk-card-2,.zk-example{box-shadow:0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important}
 .zk-card-4,.zk-hover-shadow:hover{box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important}
 .zk-card-8{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19); background-color: gray; color: yellow;}
